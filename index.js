@@ -14,4 +14,5 @@ const divide = (a,b) => {
 module.exports.add = add;
 module.exports.subtract = subtract;
 module.exports.multiply = multiply;
+module.exports.divide = divide;
 

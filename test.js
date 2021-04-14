@@ -1,5 +1,5 @@
 // import the function sfrom the index.js file
-const { add } = require('./index');
+const { add, subtract, multiply, divide } = require('./index');
 
 describe("Adding two numbers", () => {
     it("Should return the sum", () => {
@@ -13,4 +13,8 @@ describe("Subtract function", () => {
     })
 })
 
-
+describe("Multiply function", () => {
+    it("Should return the multiplied sum", () => {
+        expect(multiply(7, 9)).toBe(63)
+    })
+})
